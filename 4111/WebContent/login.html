@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<!-- <link rel="stylesheet" type="text/css" href="./musicdb.css" /> -->
+<!-- <script>
+function usr_login()
+{
+	var get_name = document.getElementById("username").value;
+	var get_pwd = document.getElementById("password").value;
+}
+</script> -->
+
+</head>
+
+<body>
+<div id="container">
+
+	<div id="header">
+    <h1>  <big>Music database</big> </h1>
+    </div>
+    <div id="menu">
+    <p style="color:black; margin-left: 20px">
+    <big>Music Charts:</big></p>
+	<ul>
+    				<li><a href="./web.jsp">Biliboard</a></li>
+
+					<li><a href="./web.jsp">MTV UK</a></li>
+                    
+                    <li><a href="./web.jsp">Recommend List</a></li>
+    </ul>  
+    <p style="color:black; margin-left: 20px">           
+    <big>Related Charts:</big></p>
+	<ul>
+    				<li><a href="./songlist.jsp">Song</a></li>
+					<li><a href="./singerlist.jsp">Singer</a></li>
+                    <li><a href="./downloadlist.jsp">Download</a></li>
+                    <li><a href="./login.jsp">Login</a></li>
+    </ul>        
+    </div>
+			<!--榜单列表导航_E-->
+  <div id="content">
+<!-- <form id="login" style="margin-left:300px"> -->
+    <h1>Log In</h1>
+    <fieldset id="inputs">
+        <input id="username" type="text" placeholder="Username" autofocus required>
+        <br/>   
+        <input id="password" type="password" placeholder="Password" required>
+    </fieldset>
+    <fieldset id="actions" align="center">
+        <input type="submit" id="submit" onclick="usr_login()" value="Log in">
+       
+    </fieldset>
+</form>
+</div>
+</div>
+</body>
+</html>
